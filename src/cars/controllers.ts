@@ -51,5 +51,5 @@ export const destroyController = async (
 
  const deleteCar = await destroy(carId)
 
-  return res.status(200).json(deleteCar);
+  return res.status(204).json(deleteCar);
 };
